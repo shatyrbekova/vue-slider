@@ -1,0 +1,22 @@
+.slider{
+position: relative;
+}
+
+.slider-photo img{
+    width: 100%;
+}
+
+.arrow{
+   font-size: 36px; 
+}
+
+.slider-dots{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    color:blanchedalmond;
+}
+.slider-dots .current{
+    color:blue;
+}
