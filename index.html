@@ -25,11 +25,11 @@
                     </ul>
                     <ul class="registration">
                         <li>
-                            <button type="button" class="btn btn-outline-primary">EUR</button>
+                            <button type="button" class="btn btn-outline-primary" :title="messageEur">EUR</button>
                         </li>
                        <li>
                         <a href="#">
-                            <i class="far fa-question-circle"></i>
+                            <i class="far fa-question-circle" :title="messageAsk" ></i>
                         </a>
                        </li>
                         
@@ -95,6 +95,7 @@
                     <form class="col-12 form-container">
                         <div class="input-container">
                           <input type="text" class="where" placeholder="Dove vuoi andare? ">
+                          <!-- <img src="./img/bed.png" alt=""> -->
                         </div>
                         <div class="input-second-container">
                             <input type="text" class="date" placeholder="Check-in - Check-out">

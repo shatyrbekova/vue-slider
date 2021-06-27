@@ -21,7 +21,9 @@ new Vue({
         'img/image10.jpeg',
         'img/image11.jpeg',
         'img/image12.jpeg',
-       ]
+       ],
+       messageEur: 'Scegli la tua valuta',
+       messageAsk: 'Contatta l\'Assistenza Clienti',
     },
 
     created(){
