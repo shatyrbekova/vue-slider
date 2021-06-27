@@ -1,5 +1,110 @@
+
+
+*{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.section-fluid{
+    height: 120px;
+    background:#003580;
+    margin: 0px auto;
+    color: white;
+}
+
+.navbar-first-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+ul{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.registration li{
+    margin-left: 15px;
+    list-style: none;
+}
+.navbar-second-content li{
+    margin-right: 30px;
+    list-style: none;
+}
+li i{
+    margin-right: 5px;
+}
+
+.registration{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo-color{
+    color: rgb(47, 140, 226);
+    font-weight: bolder;
+}
+.navbar-second-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.section-second-fluid{
+    background-color:#f5f5f5;
+}
+
+.text{
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.input-checkbox{
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.subtitle-text{
+    font-size: 14px;
+}
+.input-container{
+    background: url(../img/bed.png) no-repeat;
+    padding-left: 25px;
+    background-size: 20px 20px;
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.form-container input, .form-container button  {
+    border: 3px #febb02 solid;
+    height:50px;
+}
+
+.date{
+    width: 260px;
+}
+.people{
+    width:270px;
+}
+
+.btn-search{
+    background-color: rgb(0, 113, 194);
+    color:white;
+    width:120px;
+    font-weight: bolder;
+}
+.where{
+    width:300px;
+}
 .slider{
 position: relative;
+text-align:center;
+cursor:pointer;
+}
+.offers{
+    display: flex;
+flex-direction: row;
 }
 
 .slider-photo img{
@@ -8,6 +113,18 @@ position: relative;
 
 .arrow{
    font-size: 36px; 
+   display: flex;
+   align-items: center;
+
+}
+
+.arrow-right{
+    position: relative;
+    right:60px;
+}
+.arrow-left{
+    position: relative;
+    left:220px;
 }
 
 .slider-dots{
