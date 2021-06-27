@@ -119,59 +119,121 @@
 
      </section>
 
+     <section class="container">
+
+        
+        <div class="row">
+              <div class="col-12">
+                <h4>Scegli la meta giusta in base ai tuoi gusti.</h4>
+              </div>
+              <div class="col-12 choose-where-togo">
+                  <div class="col-3 ">
+                      <div class="box">
+                         <div class="img">
+                            <img src="./img/campagna_book.jpeg" alt="">
+                         </div>
+                       
+                        
+                        <div class="text-box">
+                            <h5>Campagna</h5>
+                            <p>Non c'è niente di più rilassante della campagna</p>
+                        </div>
+                      </div>
+                      
+                  </div>
+                  <div class="col-3">
+                      <div class="box">
+                          <div class="img">
+                            <img src="./img/natura_book.jpeg" alt="">
+                          </div>
+                        
+                        <div class="text-box">
+                            <h5>Natura</h5>
+                            <p>Lasciati alle spalle il traffico e riscopri la magia della natrua </p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-3">
+                      <div class="box">
+                          <div class="img">
+                            <img src="./img/spiaggia_book.jpeg" alt="">
+                          </div>
+                          <div class="text-box">
+                            <h5>Spiaggia</h5>
+                            <p>Goditi una pausa estiva in spiaggia</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-3">
+                      <div class="box">
+                          <div class="img">
+                            <img src="./img/montagna_book.jpeg" alt="">
+                          </div>
+                          <div class="text-box">
+                            <h5>Montagna</h5>
+                            <p>La vista di un panorama di montagna</p>
+                        </div>
+                      </div>
+                      
+                  </div>
+              </div>
+              
+
+            
+        </div>
+
+
+     </section>
+
+ 
+     <section class="container">
+          <div class="row">
+
+            <div class="col-12">
+                <h4>Cerca per tipologia di struttura <h4>
+            </div>
+          
+            <div class="col-12 section-struttura center">
+                 
+                    <div class="col-4 box-struttura"> 
+                        <div class="img-struttura">
+                            <img src="./img/appartamenti.jpeg" alt="">
+                        </div>
+                        <div>
+                        <h5>Appartamenti</h5>
+                        <span>784,758 hotel</span>
+                        </div>
+                    </div>
+    
+                    <div class="col-4 box-struttura"> 
+                        <div class="img-struttura">
+                            <img src="./img/resort.jpeg" alt="">
+                        </div>
+                       <div>
+                        <h5>Resort</h5>
+                        <span>17.425</span>
+                       </div>
+                    </div>
+                    
+                    <div class="col-4 box-struttura"> 
+                        <div class="img-struttura">
+                            <img src="./img/chalet.jpeg" alt="">
+                        </div>
+                        <div>
+                        <h5>Chalet</h5>
+                        <span>30.725</span>
+                        </div>
+                    </div>
+            
+            </div>
+          </div>
+          
+     </section>
     <section class="slider container">
      
-    <div class="row ">
-        <!-- <div class="col-12 offers">
-            <div class="col-6 arrows">
-                <p>Ti interessano ancora le ricerche che hai fatto per Roma</p>
-                <div class="col-2 arrow"@click="prev">
-                    <i class="fas fa-arrow-circle-left arrow-left"></i>
-                </div>
-                <div class="slider-photo col-8 ">
-                    <img :src="photos[photoIndex]" :alt="photos">
-                    <div class="slider-dots">
-                     
-                       <i
-                        :class="isCurrentDot(index)"
-                         v-for="(img, index) in photos" 
-                         class="fas fa-circle" 
-                         @click="moveTo(index)"
-                       >
-                        
-                        </i>
-                    </div>
-                </div>
-                <div class="col-2 arrow " @click="next">
-                    <i  class="fas fa-arrow-circle-right arrow-right"></i>
-                </div>
-            </div> -->
-
-            <!-- <div class="col-6">
-
-                <div class="col-2 arrow"@click="prev">
-                    <i class="fas fa-arrow-circle-left arrow-left"></i>
-                </div>
-                <div class="slider-photo col-8 ">
-                    <img :src="photosSorrento[photoIndex]" :alt="photos">
-                    <div class="slider-dots">
-                     
-                       <i
-                        :class="isCurrentDot(index)"
-                         v-for="(img, index) in photos" 
-                         class="fas fa-circle" 
-                         @click="moveTo(index)"
-                       >
-                        
-                        </i>
-                    </div>
-                </div>
-                <div class="col-2 arrow " @click="next">
-                    <i  class="fas fa-arrow-circle-right arrow-right"></i>
-                </div>
-            </div>
-        </div> -->
        
+    <div class="row">
+            
         <div class="col-2 arrow"@click="prev">
             <i class="fas fa-arrow-circle-left arrow-left"></i>
         </div>
@@ -193,9 +255,19 @@
             <i  class="fas fa-arrow-circle-right arrow-right"></i>
         </div>
      </div>
+       
    </div>
+
+  
+   
+</div>
+
+
+
   
 </section>
+
+
 <script type="text/javascript" src="./js/script.js"></script>
     
 </body>
