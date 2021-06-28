@@ -4,6 +4,11 @@
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
+/* #app{
+    margin-bottom: 100px;
+} */
+
+
 .section-fluid{
     height: 120px;
     background:#003580;
@@ -64,14 +69,25 @@ li i{
 .subtitle-text{
     font-size: 14px;
 }
-.input-container{
-    
+.input-container input{
+   
     background: url(../img/bed.png) no-repeat;
-    padding-left: 25px;
+    padding-left: 35px;
     background-size: 20px 20px;  
     background-position: 3px 10px;
 }
-
+.input-second-container input{
+    background: url(../img/calendario.png) no-repeat;
+    padding-left: 35px;
+    background-size: 20px 20px;  
+    background-position: 3px 10px;
+}
+.input-third-container input{
+    background: url(../img/utente.png) no-repeat;
+    padding-left: 35px;
+    background-size: 20px 20px;  
+    background-position: 3px 10px;
+}
 .form-container{
     display: flex;
     flex-direction: row;
@@ -86,7 +102,7 @@ li i{
     width: 260px;
 }
 .people{
-    width:270px;
+    width:350px;
 }
 
 .btn-search{
@@ -96,12 +112,17 @@ li i{
     font-weight: bolder;
 }
 .where{
-    width:300px;
+    width:400px;
 }
 
 .choose-where-togo{
     display: flex;
     flex-direction: row;
+}
+
+.section-container{
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 .box img{
     max-width:80%;
@@ -128,6 +149,7 @@ li i{
 position: relative;
 text-align:center;
 cursor:pointer;
+margin-top: 30px;
 }
 .offers{
     display: flex;
@@ -151,7 +173,7 @@ flex-direction: row;
 }
 .arrow-left{
     position: relative;
-    left:180px;
+    left:200px;
 }
 
 .slider-dots{
@@ -211,4 +233,51 @@ flex-direction: row;
     color:white;
     background-color: rgb(44, 37, 37);
     right:20px;
+}
+
+.cities-ue{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+
+.box-city{
+    height:300px;
+    position: relative;
+}
+.box-city img{
+    width:95%;
+}
+
+.title-parigi{
+    position: absolute; 
+    bottom:210px;
+    left:20px;
+    color:white;
+}
+.title-londra{
+    position: absolute; 
+    bottom:210px;
+    left:20px;
+    color:white;
+}
+.title-londra img{
+    width:40px;
+    position: relative;
+    bottom:40px;
+}
+
+.title-parigi img{
+    width:40px;
+    position: relative;
+    bottom:40px;
+    right: 20px;
+}
+.title-londra h3, .title-parigi h3{
+font-size: 35px;
+font-weight: bold;
+}
+footer{
+    height:200px;
+    background: #00224f;
 }

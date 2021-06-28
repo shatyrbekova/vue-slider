@@ -15,13 +15,14 @@ new Vue({
         ],
         photoIndex: 0,
        photosSorrento:[
-        'img/image7.jpeg',
+        
         'img/image8.jpeg',
         'img/image9.jpeg',
         'img/image10.jpeg',
         'img/image11.jpeg',
         'img/image12.jpeg',
        ],
+       
        messageEur: 'Scegli la tua valuta',
        messageAsk: 'Contatta l\'Assistenza Clienti',
     },

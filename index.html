@@ -95,7 +95,7 @@
                     <form class="col-12 form-container">
                         <div class="input-container">
                           <input type="text" class="where" placeholder="Dove vuoi andare? ">
-                          <!-- <img src="./img/bed.png" alt=""> -->
+                        
                         </div>
                         <div class="input-second-container">
                             <input type="text" class="date" placeholder="Check-in - Check-out">
@@ -103,7 +103,7 @@
                         <div class="input-third-container">
                           <input type="text" class="people" placeholder="2 adulti - 0 bambini - 0 camera">
                       </div>
-                      <div class="input-second-container">
+                      <div class="input-fourth-container">
                          <button class="btn-search">Cerca</button>
                       </div>
                    </form>
@@ -120,7 +120,7 @@
 
      </section>
 
-     <section class="container">
+     <section class="container section-container">
 
         
         <div class="row">
@@ -150,7 +150,7 @@
                         
                         <div class="text-box">
                             <h5>Natura</h5>
-                            <p>Lasciati alle spalle il traffico e riscopri la magia della natrua </p>
+                            <p>Riscopri la magia della natrua </p>
                         </div>
                       </div>
                   </div>
@@ -230,12 +230,13 @@
           </div>
           
      </section>
+
     <section class="slider container">
      
        
     <div class="row">
             
-        <div class="col-2 arrow"@click="prev">
+        <div class="col-2 arrow" @click="prev">
             <i class="fas fa-arrow-circle-left arrow-left"></i>
         </div>
         <div class="slider-photo col-8 ">
@@ -261,21 +262,52 @@
                <div>€ 113,55</div>
            </div>
         </div>
-        <div class="col-2 arrow " @click="next">
+         <div class="col-2 arrow " @click="next">
             <i  class="fas fa-arrow-circle-right arrow-right"></i>
-        </div>
+         </div>
      </div>
        
-   </div>
+  
+  
+   </section>
+   <section class="container">
+    <div class="row">
+            <div class="col-12 cities-ue">
+             
+              <div class="col-6 box-city ">
+                  <img src="./img/parigi1.jpeg" alt="">
+                  <div class="title-parigi">
+                    <h3>Parigi</h3>
+                    <span>15.099 strutture</span>
+                    <img src="./img/france-flag.svg" alt="">
+                   </div>
+              </div>
 
+              <div class="col-6 box-city">
+                   <img src="./img/londra1.jpeg" alt="">
+
+                   <div class="title-londra">
+                    <h3>Londra</h3>
+                    <span>18.099 strutture</span>
+                    <img src="./img/gb-flag.png" alt="">
+                   </div>
+              </div>
+              
+
+            </div>
+         
+
+  
+   
+    </div>
+</section>
+
+<footer></footer>
   
    
 </div>
 
 
-
-  
-</section>
 
 
 <script type="text/javascript" src="./js/script.js"></script>
