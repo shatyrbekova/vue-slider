@@ -151,7 +151,7 @@ flex-direction: row;
 }
 .arrow-left{
     position: relative;
-    left:220px;
+    left:180px;
 }
 
 .slider-dots{
@@ -180,4 +180,35 @@ flex-direction: row;
 .img-struttura{
     margin-bottom: 15px;
 }
+.slider-photo{
+    position: relative;
+}
+.title-rome{
+    color:white;
+    position: absolute;
+    top: 30px;
+    left:30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.title-rome h3{
+    font-weight: bold;
+    font-size:40px;
+    margin-right: 120px;
+}
 
+.title-rome img{
+  width:35px;
+  position: relative;
+  top:-50px;
+  right:70px;
+}
+.prezzo-medio{
+    position: absolute;
+    bottom: 35px;
+    height: 50px;
+    width:120px;
+    color:white;
+    background-color: rgb(44, 37, 37);
+    right:20px;
+}
